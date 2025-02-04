@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui;
+}
+
+:root {
+  --info-wave-bg: #d6e8ec;
+  --info-wave-base: #4fb3ca;
+  --info-wave-shadow: #4593a5;
+}
+
+#app {
+  background-color: var(--info-wave-bg);
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}

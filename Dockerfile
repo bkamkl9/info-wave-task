@@ -10,8 +10,6 @@ RUN pnpm install --frozen-lockfile
 
 COPY . .
 
-EXPOSE 5173
-
 RUN pnpm run build
 
 CMD ["pnpm", "run", "preview"]
